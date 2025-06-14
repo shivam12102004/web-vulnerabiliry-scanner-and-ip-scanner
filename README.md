@@ -41,7 +41,7 @@ vulnscanner/
 │
 ├── .gitignore                     # Ignore unnecessary files
 ├── README.md                      # Project overview
-└── render.yaml                    # (Optional) Render deployment config
+└── render.yaml                    
 
 
 
