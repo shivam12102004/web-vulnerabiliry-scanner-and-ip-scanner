@@ -1,0 +1,124 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  font-family: "Segoe UI", sans-serif;
+  color: #333;
+  background-color: #1b1a1a;
+}
+
+/* Header */
+.header {
+  background-color: #201f1f;
+  padding: 1rem 0;
+  color: white;
+ 
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+   display: flex;
+  flex-direction: column;
+}
+
+.logo {
+  font-size: 1.8rem;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+nav {
+  margin-top: 0.5rem;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.nav-links li a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.nav-links li a:hover {
+  text-decoration: underline;
+}
+
+/* Hero */
+.hero {
+  background-image: url('/public/hero.jpg');
+  background-position:12cap;
+  color: white;
+  padding: 4rem 0;
+  text-align: center;
+}
+
+.hero h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.cta-button {
+  background-color: #ffcc00;
+  color: #333;
+  border: none;
+  padding: 0.8rem 1.5rem;
+  font-size: 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.cta-button:hover {
+  background-color: #e6b800;
+}
+
+/* Features */
+.features {
+  padding: 3rem 0;
+  background:linear-gradient(to right top, black 20% , rgb(253, 2, 2) );
+  text-align: center;
+}
+
+.features h3 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.features-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+}
+
+.feature-box {
+  background: #f1f1f1;
+  padding: 2rem;
+  width: 300px;
+  border-radius: 8px;
+  transition: transform 0.3s;
+}
+
+.feature-box:hover {
+  transform: translateY(-5px);
+}
+
+.feature-box h4 {
+  margin-bottom: 1rem;
+  font-size: 1.3rem;
+}
+
