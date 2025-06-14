@@ -17,7 +17,32 @@ A simple and powerful web-based tool for scanning websites and IPs for open port
 
 ## 📁 Project Structure
 
-****
+vulnscanner/
+├── backend/
+│   ├── app.py                     # Flask main app
+│   ├── scanner.py                 # Port/vulnerability scanning logic (optional)
+│   ├── utils.py                   # Utility/helper functions (optional)
+│   ├── requirements.txt           # Python dependencies
+│   └── __init__.py                # Package marker (optional)
+│
+├── frontend/
+│   ├── public/
+│   │   ├── index.html             # Main HTML template
+│   │   └── videoplayback.mp4      # (Compressed) video file if needed
+│   ├── src/
+│   │   ├── components/
+│   │   │   ├── ResultBox.jsx      # Shows scan result
+│   │   │   └── Header.jsx         # (Optional) Header/Navbar
+│   │   ├── App.js                 # Main React component
+│   │   ├── index.js               # React entry point
+│   │   └── api.js                 # Axios API calls
+│   ├── package.json               # Frontend dependencies
+│   └── .env                       # (Optional) environment variables
+│
+├── .gitignore                     # Ignore unnecessary files
+├── README.md                      # Project overview
+└── render.yaml                    # (Optional) Render deployment config
+
 
 
 ---
